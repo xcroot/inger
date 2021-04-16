@@ -1,0 +1,195 @@
+﻿{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "ruike/welcome-1.jsp"
+  },
+  "logoInfo": {
+    "title": "锐科辅料系统",
+    "image": "images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "child": [
+        {
+          "title": "低值易耗请购",
+          "href": "",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "低值易耗请购",
+              "href": "ruike/easyconsumelist.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "工具清单请购",
+              "href": "ruike/toollist.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "机加工装请购",
+              "href": "ruike/machlist.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "备件请购",
+              "href": "ruike/repalcementlist.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "耐耗品请购",
+              "href": "ruike/resistancelist.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "请购查询",
+          "href": "page/menu.html",
+          "icon": "fa fa-flag-o",
+          "target": "_self",
+          "child": [
+            {
+              "title": "低值易耗查询",
+              "href": "ruike/eazyconsumeorderall.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "工具清单查询",
+              "href": "ruike/toolorderall.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "机加工装查询",
+              "href": "ruike/machorder.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "备件查询",
+              "href": "ruike/replacementorderall.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "耐耗品查询",
+              "href": "ruike/resistanceorderall.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "所有订单查询",
+              "href": "ruike/orderall.do",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "个人中心",
+          "href": "ruike/renewpwd.jsp",
+          "icon": "fa fa-home",
+          "target": "_self",
+          "child": [
+            {
+              "title": "个人信息",
+              "href": "ruike/404.jsp",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "修改密码",
+              "href": "ruike/renewpwd.jsp",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            },
+            {
+              "title": "找回密码",
+              "href": "ruike/404.jsp",
+              "icon": "fa fa-tachometer",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "产品",
+          "href": "ruike/404.jsp",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "其它",
+          "href": "ruike/404.jsp",
+          "icon": "fa fa-snowflake-o",
+          "target": ""
+        }
+      ]
+    },
+    "component": {
+      "title": "组件管理",
+      "icon": "fa fa-lemon-o"
+    },
+    "other": {
+      "title": "其它管理",
+      "icon": "fa fa-slideshare",
+      "child": [
+        {
+          "title": "多级菜单",
+          "href": "",
+          "icon": "fa fa-meetup",
+          "target": "",
+          "child": [
+            {
+              "title": "按钮1",
+              "href": "page/button.html",
+              "icon": "fa fa-calendar",
+              "target": "_self",
+              "child": [
+                {
+                  "title": "按钮2",
+                  "href": "page/button.html",
+                  "icon": "fa fa-snowflake-o",
+                  "target": "_self",
+                  "child": [
+                    {
+                      "title": "三级菜单1",
+                      "href": "page/button-1.html",
+                      "icon": "fa fa-snowflake-o",
+                      "target": "_self"
+                    },
+                    {
+                      "title": "三级菜单2",
+                      "href": "page/form-1.html",
+                      "icon": "fa fa-calendar",
+                      "target": "_self"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "失效菜单",
+          "href": "page/error.html",
+          "icon": "fa fa-superpowers",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}
